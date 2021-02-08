@@ -1,0 +1,40 @@
+main {
+	padding-top: 56px;
+}
+
+#head-navbar {
+	z-index: 9999;
+	position: fixed;
+	padding-left: 16px;
+	padding-right: 16px;
+	width: 100%;
+	height: 56px;
+	border: 1px solid red;
+}
+
+#main-grid {
+	display: grid;
+	grid-template-columns: 72px 1fr;
+}
+
+.intercard {
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 40px;
+}
+
+.card-image-text {
+	display: grid;
+	grid-template-columns: 48px 1fr;
+}
+
+.icons {
+	margin-top: 12px;
+	margin-right: 12px;
+	width: 36px;
+	height: 36px;
+}
+
+.movie-titles {
+	margin-top: 12px;
+}
