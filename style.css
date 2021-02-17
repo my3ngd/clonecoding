@@ -40,6 +40,9 @@ main {
 	margin-bottom: 4px;
 }
 
-/* .movie-discrecption {
-	
-} */
+.sidebar-menu {
+	padding-left: 24px;
+	padding-right: 24px;
+	width: 192px;
+	height: 40px;
+}

@@ -10,10 +10,12 @@
   <body class="bg-dark text-light" style="height: 1000px;">
     <!-- navbar -->
     <nav id="head-navbar" class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">
-        <button class="navbar-toggler-icon bg-dark" type="button" style="border: 0px;"></button>
-        <div><a href="https://youtube.com" class="text-danger">(Youtube Icon)</a></div>
-        <div class="container m-1">
+      <span class="container-fluid">
+        <span>
+          <button class="navbar-toggler-icon bg-dark" type="button" style="border: 0px;"></button>
+        </span>
+        <span><a href="https://youtube.com" class="text-danger">(Youtube Icon)</a></span>
+        <span class="container m-1">
           <div class="row">
             <div class="col-sm-2" style="border: 1px solid orange;"></div>
             <div class="col-sm-6" style="border: 1px solid orange;">
@@ -25,15 +27,19 @@
             </div>
             <div class="col-sm-4" style="border: 1px solid orange;">여긴 뭐더라</div>
           </div>
-        </div>
-        <div>icon 들어갈 곳</div>
+        </span>
+        <span>icon 들어갈 곳</span>
       </div>
     </nav>
 
     <main>
       <div id="main-grid" style="height: 1000px;">
         <!-- 800px: temp -->
-        <div>sidebar (72px)</div>
+        <div>
+          <div class="sidebar-menu">홈</div>
+          <div class="sidebar-menu">인기</div>
+          <div class="sidebar-menu">구독</div>
+        </div>
         <div style="background-color: black;">
           <!-- grid -->
           <div class="container-fluid" style="margin-top: 24px;">
