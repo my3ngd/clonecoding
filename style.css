@@ -45,6 +45,8 @@ main {
 	padding-right: 24px;
 	width: auto;
 	height: 40px;
+
+	/* border: 1px solid green; */
 }
 
 #sidebar-items {
@@ -52,5 +54,14 @@ main {
 	padding-bottom: 12px;
 	width: 240px;
 	height: 385px;
-	border-bottom: 2px solid gray;
+	/* why not 385px but 360px */
+	border-bottom: 1px solid gray;
+}
+
+#sidebar-submenu {
+	margin-top: 12px;
+	border-top: 1px solid gray;
+	padding-top: 12px;
+	width: 240px;
+	height: 240px;
 }
